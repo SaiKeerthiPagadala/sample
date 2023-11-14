@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <style>
+        .main{
+    color: blueviolet; text-align: center;
+    }
+    #form{
+    color: rgb(131, 14, 240); text-align: left; font-style: italic; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin: 4%; margin-left: 40%;
+    }
+    h2{
+    color: purple; text-align: center;
+    }
+    p{
+    color: blueviolet; text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    </style>
+    <link rel="icon" type="image" href="./images/purpleheart.jpeg">
+</head>
+
+<body style="background-color: lavender;">
+    <h1 class="main">REGISTRATION FORM</h1>
+    <hr size="3pt" color="blueviolet">
+    <p>&#10024; Please fill the below details and submit to get registered &#10024;</p>
+    <form id="form">
+        <br>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name">
+        <br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter your last name">
+        <br><br>
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" placeholder="Enter you age">
+        <br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="html">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="css">Female</label>
+        <br><br>
+        <label for="num">Mobile Number:</label>
+        <input type="text" id="num" name="num" placeholder="Enter your mobile number">
+        <br><br>
+        <label for="course">Choose the Course:</label>
+        <select id="course" name="course">
+            <option value="bca">BCA</option>
+            <option value="bba">BBA</option>
+            <option value="bsc">BSc</option>
+            <option value="bcom">BCom</option>
+        </select>
+        <br><br>
+        <input type="button" value="Submit">
+    </form>
+    <h2>&#128156;THANK YOU!!!&#128156;</h2>
+</body>
+
+</html>
